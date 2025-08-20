@@ -1,6 +1,10 @@
 /**
+ * @deprecated Use the new web-transformer-examples.ts instead.
+ * 
  * Example usage of the TypeScript transformer implementation
  * This demonstrates how to use the translated transformer classes
+ * 
+ * MIGRATION: See src/web-transformer-examples.ts for the new API
  */
 
 import {

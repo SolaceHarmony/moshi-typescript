@@ -1,6 +1,12 @@
 /**
+ * @deprecated This custom transformer implementation is deprecated.
+ * Please use the new Web-based transformer from './transformers/index.ts' instead.
+ * 
  * TypeScript transliteration of the Python transformer module
  * Based on moshi/moshi/modules/transformer.py
+ * 
+ * MIGRATION: Replace imports with:
+ * import { createTransformer, TensorUtils } from './transformers';
  */
 
 // Basic tensor-like interface using TypedArrays

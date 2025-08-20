@@ -1,5 +1,9 @@
 /**
+ * @deprecated Use the new web-transformer.test.ts instead.
+ * 
  * Simple tests for the TypeScript transformer implementation
+ * 
+ * MIGRATION: See src/web-transformer.test.ts for the new test suite
  */
 
 import {
