@@ -155,6 +155,7 @@ export const Queue: FC = () => {
         </>
       </div>
       <div className="text-center flex justify-end items-center flex-col">
+        <a href="/transformer-demo" className="text-center mb-2 underline">🤖 Transformer Demo</a>
         <a target="_blank" href="https://kyutai.org/moshi-terms.pdf" className="text-center">Terms of Use</a>
         <a target="_blank" href="https://kyutai.org/moshi-privacy.pdf" className="text-center">Privacy Policy</a>
       </div>

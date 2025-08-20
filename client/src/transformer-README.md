@@ -1,5 +1,20 @@
 # TypeScript Transformer Implementation
 
+**⚠️ DEPRECATED: This implementation is deprecated in favor of the new Web-based transformer.**
+
+**Please use `src/transformers/index.ts` instead for new projects.**
+
+**Migration Guide:**
+```typescript
+// Old (deprecated)
+import { StreamingTransformer, ProjectedTransformer } from './transformer';
+
+// New (recommended)
+import { createTransformer, WebTransformer } from './transformers';
+```
+
+---
+
 This directory contains a TypeScript transliteration of the Python transformer module from `moshi/moshi/modules/transformer.py`. The implementation provides equivalent functionality using JavaScript/TypeScript with TypedArrays for numerical operations.
 
 ## Files
